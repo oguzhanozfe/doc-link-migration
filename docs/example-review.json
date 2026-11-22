@@ -1,0 +1,21 @@
+{
+  "action": "Approve permanent redirect",
+  "id": "redirect:16:/billing/receipt:/finance/receipts",
+  "linked_source_records": [
+    "old:/billing/receipt",
+    "new:/finance/receipts"
+  ],
+  "choices": {
+    "redirect:16:/billing/receipt:/finance/receipts": ""
+  },
+  "artifacts": {
+    "_redirects": {
+      "sha256": "4cae159eb8406cb7fd1440c319a8d0ac22200c1c5127c7be0493cebffc22cca6",
+      "changed_by_approval": true
+    },
+    "unresolved-routes.csv": {
+      "sha256": "e1e3fd30d3be6d4a91d7818cb879fee677973111e86890f29d79ef471083d360",
+      "changed_by_approval": true
+    }
+  }
+}

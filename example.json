@@ -1,0 +1,55 @@
+{
+  "old_routes": [
+    {
+      "path": "/guide/first-run",
+      "title": "First run"
+    },
+    {
+      "path": "/billing/receipt",
+      "title": "Download receipts"
+    },
+    {
+      "path": "/setup/media",
+      "title": "Upload media"
+    },
+    {
+      "path": "/about",
+      "title": "About"
+    },
+    {
+      "path": "/legacy/v1",
+      "title": "Quaternion transpose"
+    }
+  ],
+  "new_routes": [
+    {
+      "path": "/start",
+      "title": "First run",
+      "aliases": [
+        "/guide/first-run"
+      ]
+    },
+    {
+      "path": "/finance/receipts",
+      "title": "Download receipts",
+      "aliases": [
+        "/billing/receipt"
+      ]
+    },
+    {
+      "path": "/invoices/receipts",
+      "title": "Invoice receipts",
+      "aliases": [
+        "/billing/receipt"
+      ]
+    },
+    {
+      "path": "/library/uploads",
+      "title": "Upload media files"
+    },
+    {
+      "path": "/about",
+      "title": "About the team"
+    }
+  ]
+}
