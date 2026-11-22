@@ -2,11 +2,13 @@
 
 Map retired documentation paths to reviewed replacements and export static-host redirect rules and an unresolved-route queue.
 
-[![Verify](https://github.com/oguzhanozfe/doc-link-migration/actions/workflows/check.yml/badge.svg)](https://github.com/oguzhanozfe/doc-link-migration/actions/workflows/check.yml) · [Deploy to Render](https://render.com/deploy?repo=https://github.com/oguzhanozfe/doc-link-migration) · [Input guide](GUIDE.md)
+**[Open the live demo](https://oguzhanozfe.github.io/doc-link-migration/)** · [![Verify](https://github.com/oguzhanozfe/doc-link-migration/actions/workflows/check.yml/badge.svg)](https://github.com/oguzhanozfe/doc-link-migration/actions/workflows/check.yml) · [Deploy to Render](https://render.com/deploy?repo=https://github.com/oguzhanozfe/doc-link-migration) · [Input guide](GUIDE.md)
 
 A documentation move leaves readers at retired URLs. Compare replacement candidates and export only the redirects you can defend.
 
 ![Example result for Doc Link Migration](docs/result.png)
+
+The live demo lets you edit the input, search proposed changes with an on-device model and download the result. [Browser demo details](demo/DEMO.md)
 
 ## Try it
 

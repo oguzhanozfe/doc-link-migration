@@ -1,0 +1,24 @@
+{
+  "model": "gemma-4-e4b-it",
+  "provider": "local",
+  "source_sha256": "521c3fc01de31268f44e488ec940d10effc0e6feee1374fe6e9fb868d06bc3ac",
+  "considered": 4,
+  "total": 4,
+  "recommendations": [
+    {
+      "id": "redirect:16:/billing/receipt:/finance/receipts",
+      "evidence_id": "new:/finance/receipts",
+      "why": "The target document explicitly lists the source path as an alias and maintains identical titles, supporting a migration based on competing aliases."
+    },
+    {
+      "id": "redirect:16:/billing/receipt:/invoices/receipts",
+      "evidence_id": "new:/invoices/receipts",
+      "why": "The target document accepts the source path as an alias while maintaining high semantic similarity in titles ('Download receipts' vs 'Invoice receipts')."
+    },
+    {
+      "id": "redirect:16:/guide/first-run:/start",
+      "evidence_id": "new:/start",
+      "why": "The target document explicitly declares the old path as an alias, and both paths share the exact title 'First run', confirming a planned transition."
+    }
+  ]
+}
